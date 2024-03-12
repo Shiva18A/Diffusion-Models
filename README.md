@@ -1,5 +1,10 @@
 # Diffusion-Models
-Diffusion models from scratch and experiments
+Diffusion models from scratch
+1) Results
+2) Architecture
+3) Experiments
+
+**1) Results**
 
  **Forward Diffusion Process**
 
@@ -14,3 +19,15 @@ Below are some of the results showing **Progressive Generation** on **CIFAR-10**
 Some **Generated Samples**
 
 ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/sampled_images.png?raw=true "results")
+
+
+**2) Architecture**
+
+ DDPM paper uses model similar to Residual Attention UNet. Implemented multiple different architectures, but here have uploaded 3 architectures namely **Convolutional 
+ UNet** (Vanilla with tweeks!!) , **Residual UNet** and **Residual Attention UNet**. Below is the diagram i have drawn for Residual UNet. Residual Attention UNet diagram is **work in progress :)**
+
+ ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/resunet_components.jpg?raw=true "architecture")
+ ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/resunet.png?raw=true "architecture")
+
+
+ **3) Experiments**
