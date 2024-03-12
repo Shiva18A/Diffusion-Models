@@ -35,7 +35,7 @@ Some **Generated Samples**
   [Notebook 2](diffusion_experiments_wandb.ipynb/)
  
  Used **WandB** (Weights & Biases) for the experiments. Below are the experiment results for only the above 3 uploaded model, namely a **Conv UNet**, **Residual UNet** (see 
- diagram), Residual Attention Unet ([Notebook 1](DDPM_diffusion_model_scratch.ipynb/)). All the models were trained for just **40 epochs** on P100 GPU. As we can see the 
+ diagram), **Residual Attention Unet** ([Notebook 1](DDPM_diffusion_model_scratch.ipynb/)). All the models were trained for just **40 epochs** on P100 GPU. As we can see the 
  Conv UNet fails to generate any images. This is due to the fact that model is very deep with large channel sizes and has no residual connections. Skip connections in UNet 
  were not sufficient in this case. Using a smaller model works but output image generation quality is severely impacted. Currently working on some other ways to make this 
  work. In the same model, adding residual blocks (**see diagram**) works wonders and model's performance and image generation quality leaps significantly. We can see the 
@@ -58,6 +58,6 @@ Some **Generated Samples**
 
  <br>
  
- **Conv UNet**
+ **Conv UNet** 
  
  ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/conv_unet_40.png?raw=true "results")
