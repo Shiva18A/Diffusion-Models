@@ -26,8 +26,8 @@ Some **Generated Samples**
  DDPM paper uses model similar to Residual Attention UNet. Implemented multiple different architectures, but here have uploaded 3 architectures namely **Convolutional 
  UNet** (Vanilla with tweeks!!) , **Residual UNet** and **Residual Attention UNet**. Below is the diagram i have drawn for Residual UNet. Residual Attention UNet diagram is **work in progress :)**
 
- ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/resunet_components.jpg?raw=true "architecture")
- ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/resunet.png?raw=true "architecture")
+ ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/resunet_components_2.jpg?raw=true "architecture")
+ ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/resunet_2.png?raw=true "architecture")
 
 
  **3) Additional Experiments** - 40 Epochs
@@ -46,15 +46,15 @@ Some **Generated Samples**
  
 ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/W%26B%20Chart%203_11_2024%2C%206_47_18%20PM.png?raw=true "results")
 
- **Residual Attention UNet** 
+ **Residual UNet** 
  
- ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/res_att_unet_40.png?raw=true "results")
+ ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/res_unet_40.png?raw=true "results")
 
  <br>
  
- **Residual UNet**
+ **Residual Attention UNet**
  
- ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/res_unet_40.png?raw=true "results")
+ ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/res_att_unet_40.png?raw=true "results")
 
  <br>
  
