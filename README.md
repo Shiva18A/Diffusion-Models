@@ -2,7 +2,7 @@
 Diffusion models from scratch
 1) Results
 2) Architecture
-3) Experiments
+3) Additional Experiments
 
 **1) Results**
 
@@ -30,7 +30,7 @@ Some **Generated Samples**
  ![image](https://github.com/Shiva18A/Diffusion-Models/blob/main/imgs/resunet.png?raw=true "architecture")
 
 
- **3) Experiments**
+ **3) Additional Experiments** - 40 Epochs
  
   [Notebook 2](diffusion_experiments_wandb.ipynb/)
  
